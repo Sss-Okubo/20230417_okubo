@@ -25,5 +25,8 @@
 <img width="497" alt="image" src="https://user-images.githubusercontent.com/118349010/232483130-0de5dd8e-61c6-4ef2-8f66-90440d0a0051.png">
 
 ## ER図
-<img width="127" alt="image" src="https://user-images.githubusercontent.com/118349010/212449508-05b29c93-b4b4-414d-92cc-6cc415b9ba52.png">
-![image](https://user-images.githubusercontent.com/118349010/232480116-65825f5a-2e73-44ad-871a-d9aec8cdb517.png)
+<img width="488" alt="image" src="https://user-images.githubusercontent.com/118349010/232485836-ab8ac0c4-a4b9-432c-925f-4da7d5eee764.png">
+
+## 特記事項
+- 予約には会員登録が必要になります。
+- マイページの来店履歴に表示するためには、予約テーブル(reservations)のステータスを「1:来店済」にしなくてはならないのですが、来店処理が未実装のためSQL文で更新する必要があります。（update reservations set status = '1' where id=@@)
